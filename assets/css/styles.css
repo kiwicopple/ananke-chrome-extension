@@ -1,0 +1,45 @@
+html {
+  font-size: 10px;
+}
+
+@media (min-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body{
+	background: #00ECB9;
+	text-align: center;
+  color: #396;
+  font-family: 'Avenir', sans-serif;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+h1{
+  font-size: 4rem;
+  margin: 4rem 0rem;
+}
+
+#clockdiv{
+	display: inline-block;
+	text-align: center;
+	font-size: 10rem;
+}
+
+#clockdiv > div{
+	display: inline-block;
+  padding-right: 5rem;
+}
+
+.smalltext{
+	padding-top: .5rem;
+	font-size: 2rem;
+}
