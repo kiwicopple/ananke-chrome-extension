@@ -1,0 +1,17 @@
+{
+  "name": "ananke-chrome-extension",
+  "homepage": "https://github.com/kiwicopple/ananke-chrome-extension",
+  "authors": [
+    "kiwicopple <pcopplestone@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,45 +1,32 @@
 html {
-  font-size: 10px;
-}
-
-@media (min-width: 960px) {
-  html {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 1600px) {
-  html {
-    font-size: 20px;
-  }
+	background: #00ECB9;
 }
 
 body{
 	background: #00ECB9;
 	text-align: center;
   color: #396;
-  font-family: 'Avenir', sans-serif;
-  font-weight: bold;
-  padding: 3rem;
+  font-family: 'Avenir', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-h1{
-  font-size: 4rem;
-  margin: 4rem 0rem;
+h1 {
+  font-size: 3rem;
+  margin: 3rem 0 0 0;
 }
 
-#clockdiv{
-	display: inline-block;
+#clockdiv {
 	text-align: center;
-	font-size: 10rem;
+	font-size: 7rem;
+  font-weight: bold;
 }
 
-#clockdiv > div{
-	display: inline-block;
-  padding-right: 5rem;
+@media (max-width: 960px) {
+  .has-margin-mobile {
+    margin: -12px 20px;
+  }
 }
 
 .smalltext{
 	padding-top: .5rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }

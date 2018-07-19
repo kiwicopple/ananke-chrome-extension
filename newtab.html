@@ -4,32 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>New tab</title>
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>New tab by Ananke</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="bower_components/chrono/chrono.min.js"></script>
 </head>
 <body>
-  <main>
-      <h1>Flying to New York in...</h1>
-      <div id="clockdiv">
-        <div>
-          <span class="days"></span>
-          <div class="smalltext">Days</div>
+
+  <div class="">
+
+      <div class="section container is-small is-fullwidth">
+        <div class="columns is-centered is-hidden-mobile">
+          <div class="column is-8">
+            <div class="field has-addons">
+              <div class="control is-expanded">
+                <input class="input is-rounded" type="text" id="upcomingInput" placeholder="Flying to New York" value="">
+              </div>
+              <div class="control">
+                <div class="button is-static">on</div>
+              </div>
+              <div class="control">
+                <input class="input is-rounded" type="text" id="dateInput" placeholder="27 December at 8pm" value="">
+              </div>
+              <div class="control">
+                <button class="button is-info is-rounded" id="dateInputButton">Save</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <span class="hours"></span>
-          <div class="smalltext">Hours</div>
+        <div class="columns is-centered is-hidden-tablet">
+          <div class="column is-8">
+
+              <div class="field">
+                <input class="input is-rounded" type="text" id="dateInput" placeholder="Flying to New York">
+              </div>
+              <div class="field">
+                <input class="input is-rounded" type="text" id="dateInput" placeholder="27 December at 8pm">
+              </div>
+              <div class="field">
+                <button class="button is-info is-rounded is-fullwidth" id="dateInputButton">Save</button>
+              </div>
+
+          </div>
         </div>
-        <div>
-          <span class="minutes"></span>
-          <div class="smalltext">Minutes</div>
-        </div>
-        <div>
-          <span class="seconds"></span>
-          <div class="smalltext">Seconds</div>
-        </div>
+        <h1>Flying to New York in...</h1>
       </div>
-  </main>
+
+        <div id="clockdiv" class="columns is-multiline is-mobile has-margin-mobile">
+          <div class="column is-half-mobile is-3-tablet ">
+            <span class="days"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div class="column is-half-mobile is-3-tablet">
+            <span class="hours"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div class="column is-half-mobile is-3-tablet">
+            <span class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div class="column is-half-mobile is-3-tablet">
+            <span class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+
+  </div>
 
   <script src="assets/js/app.js"></script>
 </body>
